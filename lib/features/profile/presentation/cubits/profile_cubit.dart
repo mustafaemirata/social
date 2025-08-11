@@ -1,6 +1,4 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:social/features/profile/domain/entities/profile_user.dart';
-import 'package:social/features/profile/domain/entities/user_stats.dart';
 import 'package:social/features/profile/domain/repos/profile_repo.dart';
 import 'package:social/features/profile/presentation/cubits/profile_states.dart';
 import 'package:social/features/storage/domain/storage_repo.dart';

@@ -32,12 +32,12 @@ class FirebaseProfileRepo implements ProfileRepo {
       final querySnapshot = await firestore
           .collection('users')
           .where('name', isGreaterThanOrEqualTo: query.toLowerCase())
-          .where('name', isLessThan: query.toLowerCase() + 'z')
+          .where('name', isLessThan: '${query.toLowerCase()}z')
           .limit(20)
           .get();
 
       return querySnapshot.docs
-          .map((doc) => ProfileUser.fromJson(doc.data() as Map<String, dynamic>))
+          .map((doc) => ProfileUser.fromJson(doc.data()))
           .toList();
     } catch (e) {
       throw Exception('Kullanıcı araması başarısız: $e');

@@ -2,6 +2,7 @@ import 'package:social/features/auth/domain/entities/app_user.dart';
 
 class ProfileUser extends AppUser {
   final String bio;
+  @override
   final String profileImageUrl;
 
   ProfileUser({

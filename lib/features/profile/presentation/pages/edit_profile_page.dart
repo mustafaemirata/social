@@ -8,8 +8,6 @@ import 'package:social/features/auth/presentation/components/my_text_field.dart'
 import 'package:social/features/profile/domain/entities/profile_user.dart';
 import 'package:social/features/profile/presentation/cubits/profile_cubit.dart';
 import 'package:social/features/profile/presentation/cubits/profile_states.dart';
-import 'package:cached_network_image/cached_network_image.dart';
-import 'package:flutter/foundation.dart' show kIsWeb;
 import 'package:permission_handler/permission_handler.dart';
 
 class EditProfilePage extends StatefulWidget {

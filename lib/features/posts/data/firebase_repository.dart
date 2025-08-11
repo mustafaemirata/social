@@ -136,7 +136,7 @@ class FirebaseRepository implements PostRepo {
           .get();
 
       return commentsSnapshot.docs
-          .map((doc) => Comment.fromJson(doc.data() as Map<String, dynamic>))
+          .map((doc) => Comment.fromJson(doc.data()))
           .toList();
     } catch (e) {
       throw Exception("Yorumlar alınırken hata oluştu: $e");

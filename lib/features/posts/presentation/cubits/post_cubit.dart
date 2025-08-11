@@ -10,7 +10,7 @@ class PostCubit extends Cubit<PostStates> {
   final PostRepo postRepo;
   final StorageRepo storageRepo;
   List<Post> _currentPosts = [];
-  Map<String, List<Comment>> _commentsCache = {};
+  final Map<String, List<Comment>> _commentsCache = {};
 
   PostCubit({required this.postRepo, required this.storageRepo})
       : super(PostsInitial());
