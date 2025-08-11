@@ -39,4 +39,4 @@ Projeyi kendi ortamınızda çalıştırmak için:
 
 1. Depoyu klonlayın:
    ```bash
-   git clone https://github.com/kullaniciadi/social.git
+   git clone https://github.com/mustafaemirata/social.git
