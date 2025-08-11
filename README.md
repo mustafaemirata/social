@@ -14,15 +14,24 @@ Sosyal medya uygulaması olarak tasarlanmış bu proje, Instagram benzeri temel 
 - Takipçi ve takip edilen sayısı gösterme
 - Kullanıcı arama
 
-## Dosya Yapısı
+## Ekran Görüntüleri
 
-Projede aşağıdaki resimler bulunmaktadır:
+Ana dizinde bulunan görseller:
 
-- `profil1.png` — Profil resmi örneği
-- `ana sayfa.png` — Ana sayfa görünümü
-- `aramalarım.png` — Arama ekranı
-- `profilim.png` — Kullanıcı profili ekranı
-- `yorumlarım.png` — Yorumlar ekranı
+### Profil
+![Profil](profil1.png)
+
+### Ana Sayfa
+![Ana Sayfa](ana sayfa.png)
+
+### Aramalarım
+![Aramalarım](aramalarım.png)
+
+### Profilim
+![Profilim](profilim.png)
+
+### Yorumlarım
+![Yorumlarım](yorumlarım.png)
 
 ## Kullanım
 
