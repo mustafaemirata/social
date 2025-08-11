@@ -22,7 +22,7 @@ Ana dizinde bulunan görseller:
 ![Profil](profil1.png)
 
 ### Ana Sayfa
-![Ana Sayfa](ana sayfa.png)
+![Ana Sayfa](anasayfa.png)
 
 ### Aramalarım
 ![Aramalarım](aramalarım.png)
